@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Cafe & Restaurant</title>
+
+   
+</head>
+
+<body>
+    <link rel="stylesheet" href="case20.css">
+
+    <header>
+        <h1>Royal Cafe & Restaurant</h1>
+        <p>Delicious Food | Fresh Coffee | Happy Moments</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#details">About Us</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#reservation">Reservation</a>
+    </nav>
+
+    <section class="welcome" id="home">
+        <h2>Welcome to Royal Cafe!</h2>
+        <p>Enjoy delicious food, refreshing drinks and a comfortable atmosphere.</p>
+        <p>Good Food, Great Taste, Wonderful Memories!</p>
+    </section>
+
+    <section class="menu" id="menu">
+        <h2>Our Menu</h2>
+
+        <div class="food-container">
+
+            <div class="food">
+                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=500"
+                     alt="Pizza">
+                <h3>Margherita Pizza</h3>
+                <p>Fresh pizza with cheese and tomato.</p>
+                <p class="price">₹199</p>
+            </div>
+
+            <div class="food">
+                <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=500"
+                     alt="Burger">
+                <h3>Cheese Burger</h3>
+                <p>Burger with cheese and vegetables.</p>
+                <p class="price">₹149</p>
+            </div>
+
+            <div class="food">
+                <img src="https://images.unsplash.com/photo-1559847844-5315695dadae?w=500"
+                     alt="Pasta">
+                <h3>Creamy Pasta</h3>
+                <p>Fresh pasta with creamy sauce.</p>
+                <p class="price">₹179</p>
+            </div>
+
+            <div class="food">
+                <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=500"
+                     alt="Coffee">
+                <h3>Hot Coffee</h3>
+                <p>Freshly brewed aromatic coffee.</p>
+                <p class="price">₹79</p>
+            </div>
+
+            <div class="food">
+                <img src="https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=500"
+                     alt="Milkshake">
+                <h3>Chocolate Milkshake</h3>
+                <p>A delicious, chilled chocolate drink.</p>
+                <p class="price">₹99</p>
+            </div>
+
+            <div class="food">
+                <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=500"
+                     alt="Dessert">
+                <h3>Special Dessert</h3>
+                <p>A sweet treat to finish your meal.</p>
+                <p class="price">₹89</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="details" id="details">
+        <h2>Restaurant Details</h2>
+        <p><strong>Name:</strong> Royal Cafe & Restaurant</p>
+        <p><strong>Address:</strong> Main Road, Your City</p>
+        <p><strong>Phone:</strong> +91 98765 43210 (sample number)</p>
+        <p><strong>Email:</strong> royalcafe@example.com</p>
+
+        <h3>Opening Hours</h3>
+        <p>Monday - Friday: 9:00 AM - 10:00 PM</p>
+        <p>Saturday - Sunday: 8:00 AM - 11:00 PM</p>
+    </section>
+
+    <section class="reviews" id="reviews">
+        <h2>Customer Reviews</h2>
+
+        <div class="review">
+            <h3>⭐⭐⭐⭐⭐ - Customer 1</h3>
+            <p>The food was delicious and the service was excellent!</p>
+        </div>
+
+        <div class="review">
+            <h3>⭐⭐⭐⭐⭐ - Customer 2</h3>
+            <p>A lovely place to enjoy coffee with friends.</p>
+        </div>
+
+        <div class="review">
+            <h3>⭐⭐⭐⭐ - Customer 3</h3>
+            <p>Nice atmosphere and a good variety of food.</p>
+        </div>
+    </section>
+
+    <section class="reservation" id="reservation">
+        <h2>Reserve a Table</h2>
+        <p>Fill in the form to make a reservation enquiry.</p>
+
+        <form action="#" method="get">
+
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="date">Reservation Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Reservation Time:</label>
+            <select id="time" name="time" required>
+                <option value="">Select a time</option>
+                <option>10:00 AM</option>
+                <option>12:00 PM</option>
+                <option>2:00 PM</option>
+                <option>6:00 PM</option>
+                <option>8:00 PM</option>
+            </select>
+
+            <label for="guests">Number of Guests:</label>
+            <select id="guests" name="guests" required>
+                <option value="">Select guests</option>
+                <option>1 Person</option>
+                <option>2 People</option>
+                <option>3 People</option>
+                <option>4 People</option>
+                <option>5 or More People</option>
+            </select>
+
+            <label for="message">Special Requests:</label>
+            <textarea id="message" name="message" rows="3"></textarea>
+
+            <button type="submit">Submit Reservation</button>
+
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Royal Cafe & Restaurant</p>
+        <p>Web Development Activity-Based Learning Project</p>
+    </footer>
+
+</body>
+</html>

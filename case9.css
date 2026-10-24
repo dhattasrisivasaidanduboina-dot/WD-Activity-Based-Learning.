@@ -1,0 +1,116 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #fff8f0;
+            color: #422b24;
+        }
+
+        header {
+            background-color: #713f32;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        header h1 {
+            font-size: 38px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: #f4c2a1;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: #422b24;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+        }
+
+        .welcome {
+            text-align: center;
+            padding: 25px;
+        }
+
+        .welcome h2 {
+            color: #a34f36;
+        }
+
+        .menu {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .item {
+            background-color: white;
+            width: 240px;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 3px 10px #ddc8b8;
+        }
+
+        .item img {
+            width: 100%;
+            height: 170px;
+            object-fit: cover;
+        }
+
+        .item h3 {
+            color: #8b3f2f;
+        }
+
+        .item p {
+            padding: 0 10px;
+        }
+
+        .price {
+            color: #218044;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .offer {
+            background-color: #ffe0b2;
+            text-align: center;
+            padding: 25px;
+            margin-top: 20px;
+        }
+
+        .offer h2 {
+            color: #9c3d22;
+        }
+
+        .contact {
+            background-color: white;
+            margin: 20px;
+            padding: 25px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        button {
+            background-color: #a34f36;
+            color: white;
+            border: none;
+            padding: 10px 18px;
+            margin: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #713f32;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
